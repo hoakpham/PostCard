@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323762861A91E8FC00F61C56 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 323762851A91E8FC00F61C56 /* Bo.jpg */; };
 		323FCD371A9167E90016BC74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323FCD361A9167E90016BC74 /* AppDelegate.swift */; };
 		323FCD391A9167E90016BC74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323FCD381A9167E90016BC74 /* ViewController.swift */; };
 		323FCD3C1A9167E90016BC74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323FCD3A1A9167E90016BC74 /* Main.storyboard */; };
 		323FCD3E1A9167E90016BC74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323FCD3D1A9167E90016BC74 /* Images.xcassets */; };
 		323FCD411A9167E90016BC74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323FCD3F1A9167E90016BC74 /* LaunchScreen.xib */; };
 		323FCD4D1A9167E90016BC74 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323FCD4C1A9167E90016BC74 /* PostcardTests.swift */; };
+		32C06A0A1A96B8490028AD90 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32C06A091A96B8490028AD90 /* JRT.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		323762851A91E8FC00F61C56 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
 		323FCD311A9167E90016BC74 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323FCD351A9167E90016BC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323FCD361A9167E90016BC74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		323FCD461A9167E90016BC74 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323FCD4B1A9167E90016BC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323FCD4C1A9167E90016BC74 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		32C06A091A96B8490028AD90 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		323FCD341A9167E90016BC74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32C06A091A96B8490028AD90 /* JRT.jpg */,
+				323762851A91E8FC00F61C56 /* Bo.jpg */,
 				323FCD351A9167E90016BC74 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				323FCD3C1A9167E90016BC74 /* Main.storyboard in Resources */,
 				323FCD411A9167E90016BC74 /* LaunchScreen.xib in Resources */,
+				32C06A0A1A96B8490028AD90 /* JRT.jpg in Resources */,
+				323762861A91E8FC00F61C56 /* Bo.jpg in Resources */,
 				323FCD3E1A9167E90016BC74 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				323FCD521A9167E90016BC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		323FCD531A9167E90016BC74 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				323FCD551A9167E90016BC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
